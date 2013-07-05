@@ -8538,7 +8538,7 @@ wysihtml5.views.View = Base.extend(
     dom.observe(element, "keyup", function(event) {
       var keyCode = event.keyCode;
       if (keyCode === wysihtml5.SPACE_KEY || keyCode === wysihtml5.ENTER_KEY) {
-        that.parent.fire("newword:composer");
+        //that.parent.fire("newword:composer");
       }
     });
 
